@@ -1,0 +1,263 @@
+/*@media only screen and (max-width: 480px) {
+    .container {
+        width: 95%;
+    }
+
+    .sitenav li {
+        margin-left: 0;
+    }
+
+    .half-div {
+        width: 100%;
+    }
+
+    .flex-div {
+        flex-direction: column;
+    }
+ 
+    .banner-content h1 {
+        font-size: 24px;
+        line-height: 40px;
+        font-weight: 600;
+    }
+
+    .popular-collection {
+
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    header .flex-div {
+        align-items: flex-start;
+    }
+}*/
+/* Responsive Styles */
+
+/* General Styles for Mobile */
+@media (max-width: 768px) {
+
+    
+    .header {
+        flex-direction: column;
+        padding: 10px;
+        width: 100%;
+        margin: 0;
+    }
+
+    .nav_container {
+        flex-direction: row;
+        /*align-items: flex-start;*/
+        
+    }
+
+    .nav_link{
+        font-size: 14px;
+    }
+
+    .nav_container .flex-div {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav_container .flex-div li {
+        margin: 10px 0;
+    }
+
+    .banner_container {
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+
+    .banner_text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .banner_img {
+        width: 100%;
+        text-align: center;
+    }
+
+    .banner_img img {
+        width: 80%;
+    }
+
+    .skills_ribbon {
+        bottom: 0;
+        transform: rotate(0);
+        padding: 20px 0;
+    }
+
+    .about_container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .total_years {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .experience_container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .exp_desc, .exp_years {
+        width: 100%;
+        padding: 0;
+    }
+
+    .awards_container {
+        width: 90%;
+        padding: 0;
+    }
+
+    .portfolio_container {
+        width: 90%;
+    }
+
+    .portfolio_tabs {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .portfolio_button {
+        margin-bottom: 10px;
+    }
+
+    .portfolio_data {
+        flex-direction: column;
+    }
+
+    .portfolio_data.second .portfolio_details {
+        text-align: center;
+    }
+
+    .portfolio_data.second .portfolio_img {
+        margin-top: 20px;
+    }
+
+    .portfolio_data.first .portfolio_details {
+        text-align: center;
+    }
+
+    .portfolio_data.first .portfolio_img {
+        margin-top: 20px;
+    }
+
+    .contact_container {
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contact_title {
+        width: 100%;
+    }
+
+    .contact_box {
+        width: 100%;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .quick_links {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    
+    .ribbon_list li{
+        font-size: 10px;
+        size: 10px;
+    }
+
+    .star2{
+        font-size: 15px;
+    }
+
+    .banner_title .title {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .title_desc {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .skillset {
+        font-size: 14px;
+    }
+
+    .hire_me {
+        flex-direction: column;
+        padding: 10px;
+        width: 90%;
+    }
+
+    .port_button {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .hire {
+        font-size: 14px;
+    }
+
+    .socials {
+        font-size: 20px;
+    }
+
+    .about .title,
+    .total_years .title,
+    .exp_title {
+        font-size: 24px;
+    }
+
+    .exp_desc .title,
+    .awards_title .title,
+    .portfolio_title .title {
+        font-size: 24px;
+    }
+
+    .exp_desc .title_desc,
+    .awards_title .title_desc,
+    .list_desc .title_desc,
+    .portfolio_title .title_desc,
+    .contact_title .title_desc,
+    .contact_box h2,
+    .exp_box .title_desc {
+        font-size: 14px;
+    }
+
+    .portfolio_button {
+        font-size: 14px;
+    }
+
+    .contact_box input,
+    .contact_box textarea,
+    .custom-file-label,
+    .portfolio_button {
+        font-size: 14px;
+    }
+
+    .footer .logo {
+        font-size: 20px;
+    }
+
+    .home__social-icon {
+        font-size: 20px;
+    }
+
+    .rights {
+        font-size: 12px;
+    }
+}
